@@ -2,10 +2,23 @@
 
 A four-page website for a rust prevention spray, written in plain HTML, CSS and JavaScript. No framework, no libraries, no build step, no external requests.
 
-**Live site:** https://meetal-defence-flex.netlify.app/
-**Where it started:** https://cozy-choux-253b3a.netlify.app/ (my mentor's single-page version, which I followed while learning HTML and CSS)
+- **Live site (v3):** https://met-al-defence-rebuild.netlify.app/
+- **My first version:** https://mental-defend-flex.netlify.app/ (same design as my mentor's page)
+- **Where it started:** https://cozy-choux-253b3a.netlify.app/ (my mentor's single-page version, which I followed while learning HTML and CSS)
 
-I took that page as a starting point and rebuilt it three times. This README shows what changed and how it works, so you can compare the two sites side by side.
+I took that page as a starting point and rebuilt it three times. This README shows what changed and how it works, so you can compare the sites side by side.
+
+## Before and after
+
+| Mentor's page | This version (v3) |
+|---|---|
+| ![Mentor's page hero](img/before-hero.jpg) | ![v3 hero](img/after-hero.jpg) |
+
+### Dark and light themes
+
+| Dark (default) | Light |
+|---|---|
+| ![v3 hero, dark theme](img/after-hero.jpg) | ![v3 hero, light theme](img/after-light.jpg) |
 
 ## At a glance
 
@@ -29,6 +42,7 @@ I took that page as a starting point and rebuilt it three times. This README sho
 | Contact | No form on the page | Working contact form with validation, spam trap and a thank-you message |
 | Page title | Just "Metal" | Unique title and description per page, Open Graph tags, favicon, theme color |
 | About section | First paragraph is repeated twice in a row | Fixed |
+| Typos | "CONTECT" in the nav and on the hero button | Fixed |
 | Images | PNG and JPG | WebP, with width and height set so the page does not jump while loading |
 
 ## What I built
